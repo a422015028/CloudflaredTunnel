@@ -1,5 +1,5 @@
 # Ignore Gradle project-specific cache directory
-.gradle
+.gradle/
 
 # Ignore ACS editor directory
 .acside
@@ -8,7 +8,7 @@
 .kotlin
 
 # Ignore Gradle build output directory
-build
+build/
 local.properties
 release.jks
 keystore.properties
