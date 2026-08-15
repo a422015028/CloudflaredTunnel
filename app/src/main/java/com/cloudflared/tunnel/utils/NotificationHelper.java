@@ -20,11 +20,11 @@ public class NotificationHelper {
         PendingIntent pi = PendingIntent.getActivity(context, 0, intent,
                 PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
-        String text = running ? "Tunnel running" : "Tunnel stopped";
+        String text = running ? "隧道运行中" : "隧道已停止";
 
         return new NotificationCompat.Builder(context, App.CHANNEL_ID)
                 .setSmallIcon(R.drawable.ic_tunnel)
-                .setContentTitle("Cloudflared Tunnel")
+                .setContentTitle("Cloudflared隧道")
                 .setContentText(text)
                 .setOngoing(true)
                 .setContentIntent(pi)

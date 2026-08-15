@@ -14,8 +14,8 @@ public class App extends Application {
         android.app.NotificationManager nm = getSystemService(android.app.NotificationManager.class);
         if (nm != null && nm.getNotificationChannel(CHANNEL_ID) == null) {
             NotificationChannel channel = new NotificationChannel(
-                    CHANNEL_ID, "Cloudflared Tunnel", android.app.NotificationManager.IMPORTANCE_LOW);
-            channel.setDescription("Tunnel running status");
+                    CHANNEL_ID, "Cloudflared隧道", android.app.NotificationManager.IMPORTANCE_LOW);
+            channel.setDescription("隧道运行状态");
             nm.createNotificationChannel(channel);
         }
     }
