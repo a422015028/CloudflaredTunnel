@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 背景与表面 -->
+    <color name="background">#141218</color>
+    <color name="surface">#1D1B20</color>
+    <color name="surface_variant">#49454F</color>
+
+    <!-- 文字颜色 -->
+    <color name="text_primary">#E6E0E9</color>
+    <color name="text_secondary">#CAC4D0</color>
+
+    <!-- 卡片与装饰 -->
+    <color name="card_background">#1D1B20</color>
+    <color name="divider">#49454F</color>
+    <color name="ripple">#1FFFFFFF</color>
+
+    <!-- 强调色变体 (暗色模式用深色背景) -->
+    <color name="accent_green_light">#1B3A20</color>
+    <color name="accent_red_light">#3A1B1B</color>
+    <color name="accent_purple_light">#381E72</color>
+    <color name="accent_blue_light">#1A2342</color>
+
+    <!-- Material 3 补充色 -->
+    <color name="outline">#49454F</color>
+    <color name="on_surface">#E6E0E9</color>
+</resources>
